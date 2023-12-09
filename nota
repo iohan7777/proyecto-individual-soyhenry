@@ -1,0 +1,10 @@
+/*
+const sheets = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1zmsBWoOH4prmj9xkn2pnic7VUqiKTDBMXAt7aPTlIKI/edit#gid=0");
+ //if you have changed your sheet name then replace the below Sheet1 with your sheet name
+const sheet = sheets.getSheetByName("Page1");
+function doPost(e){
+  let data = e.parameter;
+  sheet.appendRow([data.razonSocial,data.numFiscal,data.tipoIdentificacionF,data.nombresCompletosRL,data.numIdentificacion,data.tipoIdentificacionR,data.nacionalidad,data.ciudadResidencia,data.correo,data.telefonoCelular]);
+  return ContentService.createTextOutput("Enviado a 7777 Googlesheet database!");
+}
+*/
